@@ -4,6 +4,8 @@ require 'blockenspiel'
 class OptionGrouper
   include Blockenspiel::DSL
 
+  VERSION = File.read(File.join(File.dirname(__FILE__), '..', 'VERSION')).strip
+
   # A Group contains some parameters
   class Group
     include Blockenspiel::DSL
