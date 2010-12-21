@@ -1,0 +1,11 @@
+--title
+OptionGrouper
+-m
+markdown
+-M
+maruku
+--readme
+README.md
+--no-private
+
+lib/**/*.rb
